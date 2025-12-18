@@ -2,8 +2,8 @@
 This project is a Java Console Application to generate random passwords based on user preferences.
 
 ## Introduction
-I built this project to practice Java and apply concepts from object-oriented programming in a practical way. The idea came from everyday conversations about online security and the importance of strong, 
-unique passwords. I wanted a tool that could quickly generate secure passwords without unnecessary complexity and to explore design principles such as separation of concerns, encapsulation and secure randomness.
+The idea came for this project came from everyday conversations about online security and the importance of having a strong and unique password. I wanted a tool that could quickly 
+generate secure passwords without unnecessary complexity and to explore design principles such as separation of concerns, encapsulation and secure randomness.
 
 The application is kept deliberately simple whereby it runs in the console, asks the user for their preferences and produces a password that is both customizable and secure. 
 
@@ -11,7 +11,7 @@ The application is kept deliberately simple whereby it runs in the console, asks
 1. **Generating a Password**  
    - The user specifies the desired length of the password (validated to be between 5 and 40 characters).  
    - The user answers either with a "Y" for yes or "N" for no to whether digits and special characters should be included.  
-   - A character pool is built based on these choices combining uppercase letters, lowercase letter, and optionally digits and symbols.  
+   - A character pool is built based on these choices combining uppercase letters, lowercase letters and optionally digits and symbols.  
    - Random characters are selected from this pool using `SecureRandom` and combined to form the password.  
    - The generated password is displayed on the console.  
 
@@ -27,4 +27,4 @@ The application is kept deliberately simple whereby it runs in the console, asks
 ## Future Work
 - **Having a Graphical User Interface (GUI):** Replace console prompts with buttons or sliders for easier interaction.  
 - **Password Strength Indicator:** Provide immediate feedback on the strength of generated passwords.  
-- **Excluding certain characters:** Automatically omit visually confusing characters such as `O`, `0`, `I`, and `l`.  
+- **Excluding certain characters:** Omit visually confusing characters such as `O`, `0`, `I`, and `l`.  
